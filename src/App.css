@@ -8,6 +8,12 @@ body {
 img {
   max-width: 100%;
 }
+.gray {
+  color: #918e9b;
+}
+.bold {
+  font-weight: 600;
+}
 .app {
   max-width: 550px;
   margin: 10px auto;
@@ -38,5 +44,33 @@ img {
 .hero > p {
   width: 320px;
   font-size: 16px;
+  font-weight: 300;
+}
+.card {
+  width: 176px;
+  font-size: 12px;
+}
+.card > img {
+  border-radius: 9px;
+}
+.card .status {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.card .status > img {
+  position: relative;
+  top: -1px;
+  width: 14px;
+  height: 14px;
+  filter: invert(32%) sepia(53%) saturate(3215%) hue-rotate(330deg)
+    brightness(102%) contrast(99%);
+}
+.card .status > span {
+  line-height: 14px;
+}
+.card > p {
+  margin: 0 0 8px 0;
+  font-size: 12px;
   font-weight: 300;
 }
