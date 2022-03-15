@@ -1,6 +1,5 @@
 import image from '../image/logo.png'
 
-
 function Navbar(){
 	return(
 		<nav className="nav">
