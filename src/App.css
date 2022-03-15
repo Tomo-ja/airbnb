@@ -5,3 +5,19 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif;
 }
+img {
+  max-width: 100%;
+}
+.app {
+  max-width: 550px;
+  margin: 10px auto;
+}
+
+.nav {
+  padding: 22.65px 0 22.65px 30px;
+  border-radius: 10px 10px 0px 0;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+.nav > img {
+  width: 82px;
+}
