@@ -1,7 +1,7 @@
-export default function Card (){
+export default function Card (props){
 	return(
 		<div>
-			card will be here
+			{props.item.title}
 		</div>
 	)
 }
