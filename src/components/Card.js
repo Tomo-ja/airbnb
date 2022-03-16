@@ -2,7 +2,7 @@ import iconLocation from '../image/icon_location-pin.svg'
 export default function Card (props){
 	return(
 		<section className="section">
-			<img src={props.imageUrl} alt={props.title} />
+			<img src={props.imageUrl.imgOpera} alt={props.title} />
 			<div className="content">
 				<p className="info"><img src={iconLocation} />
 					<span>{props.location}</span>
